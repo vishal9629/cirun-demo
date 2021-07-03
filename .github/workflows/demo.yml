@@ -6,7 +6,7 @@ on:
 jobs:
   build:
     name: Send a GET request via wget
-    runs-on: self-hosted
+    runs-on: self-hosted # THIS IS IMPORTANT
     steps:
       - name: wget request
         run: wget https://archive.org/stream/GuerillaOpenAccessManifesto/Goamjuly2008_djvu.txt
