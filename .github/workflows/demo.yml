@@ -1,0 +1,12 @@
+name: Sample demo Action
+
+on:
+  push
+ 
+jobs:
+  build:
+    name: Send a GET request via wget
+    runs-on: self-hosted
+    steps:
+      - name: wget request
+        run: wget https://archive.org/stream/GuerillaOpenAccessManifesto/Goamjuly2008_djvu.txt
