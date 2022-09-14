@@ -7,7 +7,7 @@ runners:
     # Cheapest VM on DigitalOcean
     instance_type: s-1vcpu-1gb
     # Ubuntu-20.4  image"
-    machine_image: ubuntu-20-04-x64
+    machine_image: ubuntu-20-10-x64
     # Path of the relevant workflow file
     workflow: .github/workflows/demo.yml
     # Number of runners to provision on every trigger on Actions job
