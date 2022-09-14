@@ -1,14 +1,14 @@
 # Self-Hosted Github Action Runners on DO via Cirun.io
 # Reference: https://docs.cirun.io/reference/yaml.html
 runners:
-  - name: Sample action
+  - name: "Sample action"
     # Cloud Provider: DigitalOcean
-    cloud: digitalocean
+    cloud: "digitalocean"
     # Cheapest VM on DigitalOcean
-    instance_type: s-1vcpu-1gb
+    instance_type: "s-1vcpu-1gb"
     # Ubuntu-20.4  image"
-    machine_image: ubuntu-20-04-x64
+    machine_image: "ubuntu-20-04-x64"
     # Path of the relevant workflow file
-    workflow: .github/workflows/demo.yml
+    workflow: ".github/workflows/demo.yml"
     # Number of runners to provision on every trigger on Actions job
     count: 1
