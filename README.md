@@ -4,7 +4,7 @@ Demo for blog
 Making a commit to trigger
 
 
-Commmit to start
+Commmit to trigger
 
 
 
